@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+        <!--link a la libreria de iconos,fuentes y la api de google-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />   
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+
+        <!-- link a mi hoja de estilos-->
+        <link href="css/mihojadeestilos.css" rel="stylesheet" type="text/css" />
+
+        <title>Weather Info</title>
+
+    </head>
+    <body>
+        
+        <div id="cuerpo">
+            <!-- Main Header Today Container -->
+            <div id="head_weather">
+                <!-- City container -->
+                <div>
+                    <br>
+                    <br>
+                    <h1>Bristol</h1>
+                    <h1>Now</h1>
+                    <br>
+                    <br>
+
+                </div>
+                <!-- Container Icono tiempo actual -->
+                <div>
+                    <img src="img/cloud1.png" alt="Lluvia">
+                </div>
+                <!--Current themperature -->
+                <div class="flotar">
+                    <div>
+                        <h2>8&ordm;C</h2>
+                    </div>
+                    <div id="bajar">
+                        <h3>/2&ordm;C</h3>
+                    </div>         
+                </div>
+                <br>
+                <!-- tres columnas para prevision de hoy-->
+                <div class="flotar" id="contenedor_colhoy">
+                    <!--columna izquierda con prevision viento actual-->
+                    <div id="colhoy">
+                        <div>
+                            <span class="material-symbols-outlined">
+                                air
+                                </span>
+                        </div>
+                        <div><p>9 km/h</p></div>
+                        <div><p>Wind</p></div>
+                    </div>
+                    <!--columna central, prevision lluvia actual-->
+                    <div id="colhoy">
+                        <div>
+                            <span class="material-symbols-outlined">
+                                water_drop
+                                </span>
+                        </div>
+                        <div><p>91%</p></div>
+                        <div><p>Rain Probability</p></div>
+                    </div>
+                    <!--columna derecha, prevision humedad actual-->
+                    <div id="colhoy">
+                        <div>
+                            <span class="material-symbols-outlined">
+                                water
+                                </span>
+                        </div>
+                        <div><p>31%</p></div>
+                        <div><p>Humidity</p></div>
+                    <br>
+                    <br>
+                    <br>
+                    </div>
+                    
+                </div>
+    
+                
+            </div>
+            <!-- contenedor para 5 dias semana-->
+            <div class="flotar" id="semana">
+                <!-- contenedor para dia 1-->
+                <div class="dias">
+                    <div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <h1>Monday</h1>
+                    </div>
+                    <div>
+                        <br>
+                        <br>
+                        <span class="material-symbols-outlined">
+                            rainy
+                            </span>
+                    </div>
+                    <div>
+                        <br>
+                        <h3>Rain</h3>
+                    </div>
+                    <div>
+                        <br>
+                        <br>
+                        <h4>6 &ordm;C</h4>
+                        <h4>0 &ordm;C</h4>
+                    </div>
+                </div>
+                <!-- contenedor para dia 2-->
+                <div class="dias">
+                    <div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <h1>Tuesday</h1>
+                    </div>
+                    <div>
+                        <br>
+                        <br>
+                        <span class="material-symbols-outlined">
+                            ac_unit
+                            </span>
+                    </div>
+                    <div>
+                        <br>
+                        <h3>Snow</h3>
+                    </div>
+                    <div>
+                        <br>
+                        <br>
+                        <h4>1 &ordm;C</h4>
+                        <h4>-4 &ordm;C</h4>
+                    </div>
+                </div>
+                <!-- contenedor para dia 3-->
+                <div class="dias">
+                    <div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <h1>Wednesday</h1>
+                    </div>
+                    <div>
+                        <br>
+                        <br>
+                        <span class="material-symbols-outlined">
+                            ac_unit
+                            </span>
+                    </div>
+                    <div>
+                        <br>
+                        <h3>Snow</h3>
+                    </div>
+                    <div>
+                        <br>
+                        <br>
+                        <h4>2 &ordm;C</h4>
+                        <h4>-3 &ordm;C</h4>
+                    </div>
+                </div>
+                <!-- contenedor para dia 4-->
+                <div class="dias">
+                    <div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <h1>Thursday</h1>
+                    </div>
+                    <div>
+                        <br>
+                        <br>
+                        <span class="material-symbols-outlined">
+                            thunderstorm
+                            </span>
+                    </div>
+                    <div>
+                        <br>
+                        <h3>Storm</h3>
+                    </div>
+                    <div>
+                        <br>
+                        <br>
+                        <h4>4 &ordm;C</h4>
+                        <h4>1 &ordm;C</h4>
+                    </div>
+                </div>
+                <!-- contenedor para dia 5-->
+                <div class="dias">
+                    <div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <h1>Friday</h1>
+                    </div>
+                    <div>
+                        <br>
+                        <br>
+                        <span class="material-symbols-outlined">
+                            rainy
+                            </span>
+                    </div>
+                    <div>
+                        <br>
+                        <h3>Rain</h3>
+                    </div>
+                    <div>
+                        <br>
+                        <br>
+                        <h4>9 &ordm;C</h4>
+                        <h4>2 &ordm;C</h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+
+    </body>
+</html>

@@ -1,0 +1,81 @@
+body{
+    color: aliceblue;
+    margin: 0%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    
+}
+
+#cuerpo{
+    display: flex;
+    text-align: center;
+    
+}
+#semana{
+    background-color: rgb(29, 28, 28);
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 0pt;
+}
+.dias{
+    width: 20%;
+}
+#head_weather{
+    background: linear-gradient(to right, #0a3f70, #3f82b9);
+    width: 25%;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+
+}
+#head_weather img{
+    width: 100px;
+    height: auto;
+}
+
+#contenedor_colhoy{
+    text-align: center;
+    flex-wrap: wrap;
+    /*background: steelblue;*/
+    width: 100%;
+}
+#colhoy{
+    width: 33%;
+}
+
+#bajar{
+    vertical-align: text-bottom;
+}
+
+.flotar{
+    display: flex;
+    justify-content: center;
+}
+
+/*.flotar h2, h3{
+    display: inline;
+} */
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 40;
+    }
+
+.material-symbols-outlined {
+        font-family: 'Material Symbols Outlined';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 40px;  /* Preferred icon size */
+        display: inline-block;
+        line-height: 1;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        direction: ltr;
+    }
